@@ -43,8 +43,8 @@ typedef NSUInteger SVProgressHUDMaskType;
 
 
 // deprecated June 9th; custom durations encourages uncessarily long status strings (inappropriate, use UIAlertView instead)
-+ (void)showSuccessWithStatus:(NSString *)string duration:(NSTimeInterval)duration DEPRECATED_ATTRIBUTE;
-+ (void)showErrorWithStatus:(NSString *)string duration:(NSTimeInterval)duration DEPRECATED_ATTRIBUTE;
++ (void)showSuccessWithStatus:(NSString *)string duration:(NSTimeInterval)duration;
++ (void)showErrorWithStatus:(NSString *)string duration:(NSTimeInterval)duration;
 
 // deprecated June 9th; use the showWithSuccess/Error methods instead
 + (void)dismissWithSuccess:(NSString*)successString DEPRECATED_ATTRIBUTE; 
